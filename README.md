@@ -68,16 +68,16 @@ This is tutorial shows how to install tesseract 4.1.1 correctly and list the [FA
     3 = Default, based on what is available.
     ```
 ## FAQ
-- Nothing provides liblept.so.5()(64bit) needed by tesseract
-  → ```[Condition]```While using tesseract show up this message!!
-  → ```[SOLVE]```Install leptonica library, install step had been mention in the previous section.
-- error: Leptonica 1.74 or higher is required. Try to install libleptonica-dev package
-  → ```[Condition]``` While install tesseract and run the command: ./configure --with-extra-includes=/usr/local/include --with-extra-libraries=/usr/local/include
-  → ```[SOLVE]``` export PKG_CONFIG_PATH=/usr/local/lib/pkgconfig/
+- Nothing provides liblept.so.5()(64bit) needed by tesseract  
+  → ```[Condition]```While using tesseract show up this message!!  
+  → ```[SOLVE]```Install leptonica library, install step had been mention in the previous section.  
+- error: Leptonica 1.74 or higher is required. Try to install libleptonica-dev package  
+  → ```[Condition]``` While install tesseract and run the command: ./configure --with-extra-includes=/usr/local/include --with-extra-libraries=/usr/local/include  
+  → ```[SOLVE]``` export PKG_CONFIG_PATH=/usr/local/lib/pkgconfig/  
 - Error opening data file /usr/local/share/tessdata/eng.traineddata  
   Please make sure the TESSDATA_PREFIX environment variable is set to your "tessdata" directory.  
   Failed loading language 'eng'  
   Tesseract couldn't load any languages!  
   Could not initialize tesseract.  
-  → ```[Condition]``` After install tesseract, and running command: tesseract <your_picture_file> <output_file_name> -l eng
-  → ```[SOLVE]``` export PKG_CONFIG_PATH=/usr/local/lib/pkgconfig/
+  → ```[Condition]``` After install tesseract, and running command: tesseract <your_picture_file> <output_file_name> -l eng  
+  → ```[SOLVE]``` export PKG_CONFIG_PATH=/usr/local/lib/pkgconfig/  
