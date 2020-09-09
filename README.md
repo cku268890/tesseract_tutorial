@@ -1,5 +1,5 @@
 # tesseract_tutorial
-This is tutorial shows how to install tesseract 4.1.1 correctly and list the [FAQ](#FAQ) down below.
+This is tutorial shows how to [install](#Install) tesseract 4.1.1 correctly and list the [FAQ](#FAQ) down below.
 ## Environment
 - centos 8.2
 
